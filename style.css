@@ -1,0 +1,92 @@
+body {
+  background: radial-gradient(circle at top, #0a1635, #020617);
+  color: #e5e7eb;
+  font-family: "Inter", system-ui;
+}
+
+/* HERO */
+.tag {
+  color: #4da3ff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.hero h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 20px;
+}
+
+.primary {
+  background: #4da3ff;
+  color: #020617;
+  padding: 15px 35px;
+  border-radius: 50px;
+  border: none;
+}
+
+.secondary {
+  background: transparent;
+  border: 1px solid #4da3ff;
+  color: #4da3ff;
+  padding: 15px 35px;
+  border-radius: 50px;
+}
+
+/* TRUST BAR */
+.trust {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+  background: rgba(255,255,255,0.03);
+  backdrop-filter: blur(12px);
+}
+
+/* SOLUTIONS */
+.solutions {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 100px 60px;
+}
+
+.solution {
+  background: rgba(255,255,255,0.04);
+  padding: 40px;
+  border-radius: 20px;
+  transition: all 0.4s ease;
+}
+
+.solution:hover {
+  transform: translateY(-10px);
+  background: rgba(77,163,255,0.08);
+}
+
+/* METRICS */
+.metrics {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+.metrics h2 {
+  font-size: 48px;
+  color: #4da3ff;
+}
+
+/* CTA */
+.final-cta {
+  text-align: center;
+  padding: 120px 40px;
+  background: linear-gradient(to right, #020617, #0a1635);
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+  color: #9ca3af;
+}
